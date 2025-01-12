@@ -1,0 +1,55 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fbfbfc;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+h1{
+    color: #353535;
+    margin: 20px 0 0 20px;
+}
+
+#nom,#prenom, #email, #date, #adresse, #mdp, #confirm-mdp{
+    width: 25rem;
+    height: 2.3rem;
+    border: #040c06 2.5px solid;
+    border-radius: 7px;
+    background: #f6f6f7;
+}
+
+#validated{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 2.7rem;
+    border-radius: 7px;
+    color: white;
+    background: #164e27;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#validated:active {
+    transform: scale(0.95); /* Réduction temporaire lors du clic */
+  }
+
+#confirmated {
+    margin : 20px;
+    color: #164e27;
+}
+
+#errorName, #errorPrename, #errorEmail, #errorDate, #errorAdress, #errorMdp, #errorMdpConfirm{
+    color:rgb(201, 5, 5);
+}

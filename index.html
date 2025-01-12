@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulaire</h1>
+        <form>
+            <div id="confirmated"></div>
+            <label for="Nom">Nom:</label>
+            <div id="errorName"></div>
+            <input type="text" name="nom" id="nom">
+
+            <label for="Prenom">Prenom:</label>
+            <div id="errorPrename"></div>
+            <input type="text" name="prenom" id="prenom">
+
+            <label for="Email">Email:</label>
+            <div id="errorEmail"></div>
+            <input type="email" name="email" id="email">
+
+            <label for="date">Date de naissance:</label>
+            <div id="errorDate"></div>
+            <input type="date" name="date" id="date">
+
+            <label for="Adresse">Adresse:</label>
+            <div id="errorAdress"></div>
+            <input type="text" name="adresse" id="adresse">
+
+            <label for="mdp">Password:</label>
+            <div id="errorMdp"></div>
+            <input type="password" name="mdp" id="mdp">
+
+            <label for="mdp">Confirm password:</label>
+            <div id="errorMdpConfirm"></div>
+            <input type="password" name="confirm-mdp" id="confirm-mdp">
+
+            <button id="validated">VALIDER</button>
+        </form>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
